@@ -1,0 +1,21 @@
+/* #f99a1a --> Laboratoria 
+    #f5f5f0 --> Color de fondo
+    #e0e0d1 --> Color de hover
+    #333 --> Color de active
+    font-family --> sans-serif*/
+body {
+  font-family: sans-serif;
+}
+ul {
+    outline: 1px solid yellow;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+}
+li {
+    outline: 1px solid red;
+}
+a {
+    outline: 1px solid green;
+}
