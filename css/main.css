@@ -6,8 +6,11 @@
 body {
   font-family: sans-serif;
 }
-h1 {
+
+#title {
     font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
 }
 nav {
     /* outline: 1px solid red; */
@@ -20,8 +23,9 @@ ul {
     padding: 0;
     line-height: 40px;
 }
-li {
+.item {
     /* outline: 1px solid red; */
+    border: 1px dotted #999;
     background-color: #f5f5f0;
 }
 /* Estados de los enlaces : LoVe/HAte Link Visited Hover Active*/
